@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { setURL } from '../Helpers/functions';
 import { CatImg } from './CatImg';
 

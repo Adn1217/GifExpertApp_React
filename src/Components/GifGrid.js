@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { SearchSection } from './SearchSection';
-import { setURL, listInfoImgs, listImgs, getGifs } from '../Helpers/functions';
+import { setURL, listInfoImgs, getGifs } from '../Helpers/functions';
 
 export const GifGrid = ({ cats, insertedValue }) => {
 

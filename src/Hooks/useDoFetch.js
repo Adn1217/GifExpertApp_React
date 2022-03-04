@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { handleSetImgs } from "../Components/GifGrid";
 import { getGifs } from "../Helpers/functions";
 
 export const useDoFetch = ( url ) => {
